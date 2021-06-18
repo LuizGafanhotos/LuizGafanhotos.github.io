@@ -4,19 +4,53 @@
 /*Sub titulo*/
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 /*Parágrafos, tags e o resto que tiver*/
-@import url('https://fonts.googleapis.com/css2?family=Benne &display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 
 
 body{
     background-image: linear-gradient(to right, #053FA8,#1F6EFF,#1665F5);
 }
 header{
-    padding: 10px 20px;
-    background-color: white;
+    padding: 19px  20px;
+    background-color: #1707f3;
 }
 header > h1{
-    text-align: center;
+   margin: 14px 14px 20px 30px; 
+   font-family: 'Arvo', 'Staatliches';
+   text-align: center;
+    
 }
 nav{
-    background-color: #A87C1B;
+    padding: 3px;
+    background-color: #3225e4;
+}
+nav > a{
+    background-color: #ffff00;
+    border: 6px black solid;
+    text-decoration: none;
+    padding: 3px;
+    font-weight: bold;
+    margin-right: 9em;
+}
+nav > a:hover{
+    color: #cccc0f;
+    border-style: dashed;
+    text-decoration: underline;
+}
+nav > a:active{
+    color: #727224;
+    border-style: groove;
+}
+
+main{
+    margin: 13px;
+    background-color: white;
+    font-family: 'Benne';
+    font-size: 18px;
+}
+footer{
+    padding: 15px;
+    margin: 27px;
+    background-color: black;
+    color: gainsboro;
 }
