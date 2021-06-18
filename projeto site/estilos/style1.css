@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*Titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Staatliches&display=swap');
+/*Sub titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+/*Parágrafos, tags e o resto que tiver*/
+@import url('https://fonts.googleapis.com/css2?family=Benne &display=swap');
+
+
+body{
+    background-image: linear-gradient(to right, #053FA8,#1F6EFF,#1665F5);
+}
+header{
+    padding: 10px 20px;
+    background-color: white;
+}
+header > h1{
+    text-align: center;
+}
+nav{
+    background-color: #A87C1B;
+}
