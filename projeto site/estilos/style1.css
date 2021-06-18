@@ -7,22 +7,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 
 
+
 body{
     background-image: linear-gradient(to right, #053FA8,#1F6EFF,#1665F5);
 }
 header{
     padding: 19px  20px;
-    background-color: #1707f3;
+    background-image: linear-gradient(to right, #053FA8, #1665F5);
 }
 header > h1{
    margin: 14px 14px 20px 30px; 
+   padding: 0px 0px 0px 0px;
    font-family: 'Arvo', 'Staatliches';
    text-align: center;
     
 }
 nav{
     padding: 3px;
-    background-color: #3225e4;
+    background-image: linear-gradient(to right, #053FA8, #1F6EFF);
+            /*Deslocamento horinzotal, Deslocamento vertical, Espalhamento e a cor*/
+    box-shadow: 2px 3px 3px 0px #00000080;     
 }
 nav > a{
     background-color: #ffff00;
@@ -43,14 +47,23 @@ nav > a:active{
 }
 
 main{
+    border-radius: 9px;
     margin: 13px;
     background-color: white;
     font-family: 'Benne';
-    font-size: 18px;
+    font-size: 18px;       
 }
 footer{
-    padding: 15px;
+    padding: 13px;
     margin: 27px;
-    background-color: black;
+    background-color: #997E04;
     color: gainsboro;
 }
+footer > p{
+    margin: 0px;
+}
+img.Enfeite{
+    margin: 1px 2px;
+    padding: 1px 1px;
+}
+
